@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE0566CC1C46C82B00863A02 /* squidward.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0566CB1C46C82B00863A02 /* squidward.png */; };
+		BE0566CE1C46C84800863A02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0566CD1C46C84800863A02 /* Assets.xcassets */; };
+		BE0566D01C46D01800863A02 /* endScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0566CF1C46D01800863A02 /* endScene.swift */; };
+		BE0566D21C46D32B00863A02 /* restartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0566D11C46D32B00863A02 /* restartScene.swift */; };
 		BEFFBB801C458F6D008C5930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFFBB7F1C458F6D008C5930 /* AppDelegate.swift */; };
 		BEFFBB821C458F6D008C5930 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BEFFBB811C458F6D008C5930 /* GameScene.sks */; };
 		BEFFBB841C458F6D008C5930 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFFBB831C458F6D008C5930 /* GameScene.swift */; };
 		BEFFBB861C458F6D008C5930 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFFBB851C458F6D008C5930 /* GameViewController.swift */; };
 		BEFFBB891C458F6D008C5930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFFBB871C458F6D008C5930 /* Main.storyboard */; };
-		BEFFBB8B1C458F6E008C5930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEFFBB8A1C458F6E008C5930 /* Assets.xcassets */; };
 		BEFFBB8E1C458F6E008C5930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFFBB8C1C458F6E008C5930 /* LaunchScreen.storyboard */; };
 		BEFFBB991C458F6F008C5930 /* MotionShooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFFBB981C458F6F008C5930 /* MotionShooterTests.swift */; };
 		BEFFBBA41C458F6F008C5930 /* MotionShooterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFFBBA31C458F6F008C5930 /* MotionShooterUITests.swift */; };
@@ -36,13 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE0566CB1C46C82B00863A02 /* squidward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = squidward.png; path = "../../../../../.Trash/squidward 09-57-39-450.imageset/squidward.png"; sourceTree = "<group>"; };
+		BE0566CD1C46C84800863A02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE0566CF1C46D01800863A02 /* endScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = endScene.swift; sourceTree = "<group>"; };
+		BE0566D11C46D32B00863A02 /* restartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = restartScene.swift; sourceTree = "<group>"; };
 		BEFFBB7C1C458F6B008C5930 /* MotionShooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionShooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFFBB7F1C458F6D008C5930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEFFBB811C458F6D008C5930 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		BEFFBB831C458F6D008C5930 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		BEFFBB851C458F6D008C5930 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		BEFFBB881C458F6D008C5930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BEFFBB8A1C458F6E008C5930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEFFBB8D1C458F6E008C5930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEFFBB8F1C458F6E008C5930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEFFBB941C458F6E008C5930 /* MotionShooterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionShooterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,9 +112,12 @@
 				BEFFBB831C458F6D008C5930 /* GameScene.swift */,
 				BEFFBB851C458F6D008C5930 /* GameViewController.swift */,
 				BEFFBB871C458F6D008C5930 /* Main.storyboard */,
-				BEFFBB8A1C458F6E008C5930 /* Assets.xcassets */,
 				BEFFBB8C1C458F6E008C5930 /* LaunchScreen.storyboard */,
 				BEFFBB8F1C458F6E008C5930 /* Info.plist */,
+				BE0566CD1C46C84800863A02 /* Assets.xcassets */,
+				BE0566CB1C46C82B00863A02 /* squidward.png */,
+				BE0566CF1C46D01800863A02 /* endScene.swift */,
+				BE0566D11C46D32B00863A02 /* restartScene.swift */,
 			);
 			path = MotionShooter;
 			sourceTree = "<group>";
@@ -238,10 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0566CC1C46C82B00863A02 /* squidward.png in Resources */,
 				BEFFBB821C458F6D008C5930 /* GameScene.sks in Resources */,
 				BEFFBB8E1C458F6E008C5930 /* LaunchScreen.storyboard in Resources */,
-				BEFFBB8B1C458F6E008C5930 /* Assets.xcassets in Resources */,
 				BEFFBB891C458F6D008C5930 /* Main.storyboard in Resources */,
+				BE0566CE1C46C84800863A02 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0566D21C46D32B00863A02 /* restartScene.swift in Sources */,
 				BEFFBB841C458F6D008C5930 /* GameScene.swift in Sources */,
+				BE0566D01C46D01800863A02 /* endScene.swift in Sources */,
 				BEFFBB861C458F6D008C5930 /* GameViewController.swift in Sources */,
 				BEFFBB801C458F6D008C5930 /* AppDelegate.swift in Sources */,
 			);
@@ -495,6 +507,7 @@
 				BEFFBBAA1C458F6F008C5930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEFFBBAB1C458F6F008C5930 /* Build configuration list for PBXNativeTarget "MotionShooterTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +516,7 @@
 				BEFFBBAD1C458F6F008C5930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEFFBBAE1C458F6F008C5930 /* Build configuration list for PBXNativeTarget "MotionShooterUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +525,7 @@
 				BEFFBBB01C458F6F008C5930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
